@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Labo1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Labo1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Labo1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Labo1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Documents/webontwikkeling_3_leerstof_januari/junit4.jar" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
