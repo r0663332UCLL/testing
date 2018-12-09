@@ -23,12 +23,13 @@
         qui ratione voluptatem sequi nesciunt.
 
         <h3>Would you like a quote?</h3>
-        <form action="">
+        <form method="post" action="Controller?action=index">
             <input type="radio" name="quotepreference" value="yes" > Yes please<br>
             <input type="radio" name="quotepreference" value="no"> I hate quotes<br>
+            <input type="submit" id="submit" value="Submit">
         </form>
         <c:choose>
-            <c:when test="${showquote=='yes'}">
+            <c:when test="${showquote =='yes'}">
                 <q>Dit is een quote</q>
             </c:when>
         </c:choose>

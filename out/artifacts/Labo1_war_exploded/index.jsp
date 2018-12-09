@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +21,19 @@
         dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
         aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
         qui ratione voluptatem sequi nesciunt.
+
+        <h3>Would you like a quote?</h3>
+        <form method="post" action="Controller?action=index">
+            <input type="radio" name="quotepreference" value="yes" > Yes please<br>
+            <input type="radio" name="quotepreference" value="no"> I hate quotes<br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        <c:choose>
+            <c:when test="${showquote =='yes'}">
+                <q>Dit is een quote</q>
+            </c:when>
+        </c:choose>
+
     </main>
     <footer> &copy; Webontwikkeling 3, UC Leuven-Limburg</footer>
 </div>
