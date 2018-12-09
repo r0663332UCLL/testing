@@ -9,6 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class updateProductPostHandler implements RequestHandler {
@@ -22,7 +23,7 @@ public class updateProductPostHandler implements RequestHandler {
     @Override
     public String handleRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Product product = new Product();
-        List<String> errors = null;
+        List<String> errors = new ArrayList<String>();
         product.setProductId(Integer.parseInt(request.getParameter("productToUpdate")));
         try {
             product.setName(request.getParameter("name"));
@@ -41,7 +42,7 @@ public class updateProductPostHandler implements RequestHandler {
         } catch (ControllerException e) {
             errors.add(e.getMessage());
         }
-        if (errors == null) {
+        if (errors.isEmpty()) {
             shopservice.updateProducts(product);
             RequestHandler productOverview = new productOverviewHandler();
             productOverview.setModel(shopservice);

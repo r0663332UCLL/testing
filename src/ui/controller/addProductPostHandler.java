@@ -1,5 +1,6 @@
 package ui.controller;
 
+import domain.model.DomainException;
 import domain.model.Person;
 import domain.model.Product;
 import domain.model.ShopService;
@@ -9,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class addProductPostHandler implements RequestHandler {
@@ -22,36 +24,40 @@ public class addProductPostHandler implements RequestHandler {
     @Override
     public String handleRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Product product = new Product();
-        List<String> errors = null;
-        product.setProductId(Integer.parseInt(request.getParameter("productToUpdate")));
+        List<String> errors = new ArrayList<>();
+        try {
+            product.setProductId(Integer.parseInt(request.getParameter("productid")));
+        } catch (DomainException|NumberFormatException e) {
+            errors.add(e.getMessage());
+        }
         try {
             product.setName(request.getParameter("name"));
-        } catch (ControllerException e) {
+        } catch (DomainException e) {
             errors.add(e.getMessage());
         }
 
         try {
             product.setDescription(request.getParameter("description"));
-        } catch (ControllerException e) {
+        } catch (DomainException e) {
             errors.add(e.getMessage());
         }
 
         try {
             product.setPrice(request.getParameter("price"));
-        } catch (ControllerException e) {
+        } catch (DomainException|NumberFormatException e) {
             errors.add(e.getMessage());
         }
-        if (errors == null) {
-            shopservice.updateProducts(product);
+        if (errors.isEmpty()) {
+            shopservice.addProduct(product);
             RequestHandler productOverview = new productOverviewHandler();
             productOverview.setModel(shopservice);
             return productOverview.handleRequest(request, response);
 
         } else {
             request.setAttribute("errors", errors);
-            RequestHandler updateProductGet = new updateProductGetHandler();
-            updateProductGet.setModel(shopservice);
-            return updateProductGet.handleRequest(request, response);
+            RequestHandler addProductGet = new addProductGetHandler();
+            addProductGet.setModel(shopservice);
+            return addProductGet.handleRequest(request, response);
         }
     }
 }

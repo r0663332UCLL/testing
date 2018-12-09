@@ -29,11 +29,13 @@
         <form method="post" action="Controller?action=addProductPost" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->
             <p><label for="productid">Productid</label>
-                <input type="text" id="productid" name="productid" required value=""></p>
-            <p><label for="name">Name</label><input type="text" id="name" name="name" required value=""></p>
+                <input type="number" id="productid" name="productid" required value=""></p>
+            <p><label for="name">Name</label>
+                <input type="text" id="name" name="name" required value=""></p>
             <p><label for="description">Description</label>
                 <input type="text" id="description" name="description" required value=""></p>
-            <p><label for="price">Price</label><input type="text" id="price" name="price" required value=""></p>
+            <p><label for="price">Price</label>
+                <input type="text" id="price" name="price" required value=""></p>
             <p><input type="submit" id="add product" value="add product"></p>
 
         </form>

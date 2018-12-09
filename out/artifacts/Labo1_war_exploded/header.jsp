@@ -9,6 +9,8 @@
             <li><a href="Controller?action=productOverview">Products</a></li>
             <li><a href="Controller?action=signUpGet">Sign up</a></li>
             <li><a href="Controller?action=addProductGet">Add Product</a></li>
+            <li><a href="Controller?action=cartOverview">Your cart</a></li>
+
         </ul>
     </nav>
 

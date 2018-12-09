@@ -26,6 +26,7 @@
                     <td>${product.description}</td>
                     <td>${product.price}</td>
                     <td><a href="Controller?action=removeProduct&productToRemove=${product.productId}">remove</a></td>
+                    <td><a href="Controller?action=addToCart&productToAdd=${product.productId}">add to cart</a></td>
                 </tr>
             </c:forEach>
             <caption>Product Overview</caption>
