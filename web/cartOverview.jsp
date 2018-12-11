@@ -31,6 +31,7 @@
             <caption>Product Overview</caption>
         </table>
         <h3>The subtotal of your order: <c:out value='${total}'/></h3>
+        <a href="Controller?action=placeOrder"><h3>Place order</h3></a>
     </main>
     <footer>
         &copy; Webontwikkeling 3, UC Leuven-Limburg
