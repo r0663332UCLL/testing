@@ -15,6 +15,14 @@
     <h2>
         Leave us some feedback!
     </h2>
+        <c:if test="${not empty errors}">
+        <div class="alert-danger">
+            <ul>
+                <c:forEach var="error" items="${errors}">
+                    <li>${error}</li>
+                </c:forEach>
+            </ul>
+            </c:if>
     <main>
         <form method="post" action="Controller?action=feedbackPost" novalidate="novalidate">
             <!-- novalidate in order to be able to run tests correctly -->

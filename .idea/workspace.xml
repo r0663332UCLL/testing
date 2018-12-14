@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a59cc7cc-3310-4552-a388-70accc9b6e94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/controller/feedbackGetHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/feedbackPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/feedbackThankyou.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Labo1_war_exploded/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Labo1_war_exploded/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/orderSucces.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/orderSucces.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/feedbackPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/feedbackPage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +63,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="163" />
+          <entry key="java" value="164" />
           <entry key="jsp" value="62" />
           <entry key="sql" value="1" />
           <entry key="xhtml" value="1" />
@@ -79,7 +73,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="163" />
+          <entry key="JAVA" value="164" />
           <entry key="JSP" value="62" />
           <entry key="Scratch" value="1" />
           <entry key="XHTML" value="1" />
@@ -89,15 +83,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="java" value="19899" />
-          <entry key="jsp" value="2991" />
+          <entry key="java" value="20176" />
+          <entry key="jsp" value="2992" />
           <entry key="xml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19897" />
-          <entry key="JSP" value="2991" />
+          <entry key="JAVA" value="20174" />
+          <entry key="JSP" value="2992" />
           <entry key="PLAIN_TEXT" value="36" />
           <entry key="SQL" value="2" />
           <entry key="XML" value="83" />
@@ -125,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/feedbackPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="288">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -140,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/orderSucces.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -149,16 +143,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="572">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#695#703#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/controller/signUpPostHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-283">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -189,17 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/signUp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/personoverview.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-end-line="1" />
+            <state relative-caret-position="550">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -277,11 +272,11 @@
         <option value="$PROJECT_DIR$/src/ui/controller/confirmOrderHandler.java" />
         <option value="$PROJECT_DIR$/src/ui/controller/placeOrderHandler.java" />
         <option value="$PROJECT_DIR$/web/feedbackThankyou.jsp" />
-        <option value="$PROJECT_DIR$/web/feedbackPage.jsp" />
-        <option value="$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java" />
         <option value="$PROJECT_DIR$/src/ui/controller/feedbackGetHandler.java" />
         <option value="$PROJECT_DIR$/web/header.jsp" />
         <option value="$PROJECT_DIR$/web/orderSucces.jsp" />
+        <option value="$PROJECT_DIR$/web/feedbackPage.jsp" />
+        <option value="$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java" />
       </list>
     </option>
   </component>
@@ -429,7 +424,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544795593957" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544798292599" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -631,7 +626,7 @@
       <workItem from="1544445802441" duration="2260000" />
       <workItem from="1544537372406" duration="4888000" />
       <workItem from="1544627659415" duration="12000" />
-      <workItem from="1544794395731" duration="1195000" />
+      <workItem from="1544794395731" duration="2482000" />
     </task>
     <servers />
   </component>
@@ -650,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141487000" />
+    <option name="totallyTimeSpent" value="142774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/signUpPostHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1042,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/addProduct.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -1060,25 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/feedbackPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,10 +1063,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/signUp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/orderSucces.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/signUpPostHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/feedbackPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/controller/feedbackPostHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#695#703#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
