@@ -10,6 +10,7 @@
             <li><a href="Controller?action=signUpGet">Sign up</a></li>
             <li><a href="Controller?action=addProductGet">Add Product</a></li>
             <li><a href="Controller?action=cartOverview">Your cart</a></li>
+            <li><a href="Controller?action=feedbackGet">Leave feedback</a></li>
 
         </ul>
     </nav>
